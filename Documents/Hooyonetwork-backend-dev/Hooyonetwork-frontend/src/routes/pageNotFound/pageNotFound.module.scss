@@ -1,0 +1,20 @@
+.wrapper {
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+    h1 {
+        margin-left: 20px;
+        padding-top: 1rem;
+    }
+    .intro {
+        background-color: #e06051;
+        color: white;
+        text-align: left;
+        padding-top: 210px;
+        z-index: -1;
+        margin-bottom: 25px;
+    }
+}

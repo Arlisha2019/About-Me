@@ -1,0 +1,1 @@
+docker stop hooyosnetwork-app

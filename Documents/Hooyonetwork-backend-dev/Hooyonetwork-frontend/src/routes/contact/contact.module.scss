@@ -1,0 +1,66 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    h1 {
+        margin-left: 20px;
+        padding-top: 1rem;
+    }
+    h2, p {
+        text-align: left;
+        margin-left: 10px;
+        @media (min-width: 1280px) {
+            padding-top: 1rem;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .intro {
+        background-color: #e06051;
+        color: white;
+        text-align: left;
+        padding-top: 210px;
+        z-index: -1;
+    }
+    .contactBlurb {
+        padding: 1rem .5rem;
+    }
+    .formWrapper {
+        padding-top: 1.25rem;
+        .form {
+            padding: 1rem;
+            @media (min-width: 1280px) {
+                padding: 3rem;
+            }
+            .consent {
+                p {
+                  font-size: .6rem;
+                  text-align: center;
+                }
+              }
+            button {
+                margin: 1rem;
+                color: #de2f49;
+                border-color: #de2f49;
+                border-width: 2px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 800;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    .email {
+        padding: 0 .5rem;
+        span {
+            color: #de2f49;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+    }
+    .address {
+        padding: 0 .5rem;
+        line-height: .5;
+    }
+}

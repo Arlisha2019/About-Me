@@ -1,0 +1,26 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+    h2, p {
+        text-align: center;
+    }
+    button {
+        margin: 1.5rem;
+        color: #de2f49;
+        border-color: #de2f49;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+    .form {
+        justify-content: center;
+        padding: 3vw;
+        // @media (min-width: 768px) {
+        //     padding: 30px;
+        // }
+        // @media (min-width: 960px) {
+        //     padding: 50px;
+        // }
+    }
+}

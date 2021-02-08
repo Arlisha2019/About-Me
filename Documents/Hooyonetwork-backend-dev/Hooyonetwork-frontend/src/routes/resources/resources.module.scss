@@ -1,0 +1,59 @@
+.wrapper {
+    height: 100%;
+    position: relative;
+    h1 {
+        margin-left: 20px;
+        padding-top: 1rem;
+    }
+    .intro {
+        background-color: #e06051;
+        color: white;
+        text-align: left;
+        padding-top: 210px;
+        z-index: -1;
+        h3 {
+            margin-left: 10px;
+            font-weight: 100;
+        }
+    }
+    .dialogContent {
+        text-align: center;
+        a:hover {
+            color: black;
+        }
+    }
+    .resource {
+        text-align: center;
+        color: black;
+        h2 {
+            padding: 2rem;
+        }
+        p {
+            padding: 1rem;
+        }
+        button {
+            color: #de2f49;
+            font-family: 'Lato', sans-serif;
+            font-weight: 800;
+            letter-spacing: 2px;
+            border-color: #de2f49;
+            border-width: 2px;
+            margin-bottom: 20px;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .firstBkg {
+            height: 300px;
+            margin: 10px 0 5px 0;
+            background-color: grey;
+        }
+        .even {
+            background-color: #F5F5F5;
+        }
+        .odd {
+            background-color:#EEEEEE;
+        }
+    }
+}

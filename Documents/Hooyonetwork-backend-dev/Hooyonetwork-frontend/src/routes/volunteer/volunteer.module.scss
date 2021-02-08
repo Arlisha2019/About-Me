@@ -1,0 +1,44 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    h1 {
+        margin-left: 20px;
+        padding-top: 1rem;
+    }
+    .intro {
+        background-color: #e06051;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        text-align: left;
+        padding-top: 210px;
+        z-index: -1;
+    }
+    .volunteerBlurb {
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+    .body {
+        padding: 0 2rem;
+    }
+    .volunteerCard {
+        height: 300px;
+    }
+    .cardImg {
+        height: 100px;
+    }
+    .photoWrapper {
+        img {
+            height: 200px;
+        }
+    }
+    .volunteerButton {
+        margin-bottom: 3rem;
+        color: #de2f49;
+        border-color: #de2f49;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+}

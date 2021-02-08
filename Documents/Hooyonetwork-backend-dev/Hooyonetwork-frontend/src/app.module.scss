@@ -1,0 +1,139 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .logo {
+    max-width: 35%;
+    height: auto;
+    margin: 1em;
+    @media (min-width: 600px) {
+      height: 200px;
+      width: auto;
+      max-width: unset;
+    }
+  }
+  .header {
+    background-color: #e06051;
+    height: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  .secondaryHeader {
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    .secondaryHeaderContent {
+      padding: 10px 20px;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+      letter-spacing: 2px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+    li {
+      display: inline;
+      padding-left: 4rem;
+      &:first-of-type {
+        padding-left: 0px;
+      }
+    }
+  }
+  .menuIcon {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    z-index: 100;
+    color: white;
+  }
+  .logoutIcon {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    z-index: 100;
+    color: black;
+  }
+  main {
+    flex-grow: 1;
+  }
+  .footer {
+    text-align: center;
+    width: 100%;
+    .footerContent {
+      background-color:  #e06051;
+      color: white;
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        line-height: 2;
+      }
+      button {
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+      span {
+        font-family: 'Lato', sans-serif;
+      }
+      .social {
+        padding-top: 10px;
+        a {
+          padding: 0 10px;
+          font-size: 22px;
+        }
+      }
+      .adminLink {
+        a {
+          font-family: 'Lato', sans-serif;
+          letter-spacing: normal;
+          font-weight: normal;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.closeDialogIcon {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}
+
+.infoDialogContent {
+  text-align: center;
+    h3 {
+        color: #e06051;
+    }
+}
+
+.menuContent {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  a {
+    color: #e06051;
+    text-decoration: none;
+  }
+  ul {
+    padding-left: 0px;
+    list-style-type: none;
+    li {
+      font-size: 24px;
+      padding: 1.75rem 2.5rem;
+    }
+  }
+}

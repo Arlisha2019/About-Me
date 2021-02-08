@@ -1,0 +1,36 @@
+.wrapper {
+    text-align: center;
+    .form {
+        padding: 15px;
+        .iconButton {
+            color: #de2f49;
+        }
+        .upload {
+            color: #de2f49;
+            font-weight: 800;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+        .cropper {
+            padding-top: 10px;
+        }
+        .croppedImg {
+            width: 100%;
+        }
+    }
+    .card {
+        margin-top: 20px;
+        .media {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+    }
+    .closeDialog {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}

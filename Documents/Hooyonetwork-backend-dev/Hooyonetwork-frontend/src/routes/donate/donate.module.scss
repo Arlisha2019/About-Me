@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    .intro {
+        h1 {
+            margin-left: 20px;
+            padding-top: 1rem;
+        }
+        background-color: #e06051;
+        color: white;
+        text-align: left;
+        padding-top: 210px;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,52 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 20px;
+    margin: 1vw;
+    h1 {
+        padding-bottom: 1rem;
+    }
+    .actionButtons {
+        position: absolute;
+        top: 1.5em;
+        right: 0px;
+    }
+    .addIcon {
+        color: green;
+        right: 3vw;
+    }
+}
+
+.closeDialogIcon {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+}
+
+.addResourceDialogContent {
+    text-align: center;
+    
+    .form {
+        padding: 15px;
+        .actions {
+            text-align: center;
+        }
+        .submit {
+            margin: 1.5rem;
+            color: #de2f49;
+            border-color: #de2f49;
+            border-width: 2px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.helpDialogContent {
+    text-align: center;
+    h4 {
+        color: #e06051;
+    }
+}

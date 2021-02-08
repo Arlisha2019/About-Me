@@ -1,0 +1,27 @@
+.wrapper {
+    text-align: center;
+    p {
+        font-size: 13px;
+    }
+    .form {
+        padding: 15px;
+        .consent {
+            p {
+                font-size: 10px;
+            }
+        }
+        .submit {
+            color: #de2f49;
+            border-color: #de2f49;
+            border-width: 2px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+    }
+    .closeDialog {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}

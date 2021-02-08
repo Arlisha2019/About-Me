@@ -1,0 +1,30 @@
+.wrapper {
+    text-align: center;
+    .form {
+        padding: 15px;
+        .submit {
+            margin: 2rem;
+            color: #de2f49;
+            border-color: #de2f49;
+            border-width: 2px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .buttonWrapper {
+            position: relative;
+        }
+        .buttonProgress {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -12px;
+            margin-left: -12px;
+        }
+    }
+    .closeDialog {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
